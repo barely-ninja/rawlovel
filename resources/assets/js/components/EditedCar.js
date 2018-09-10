@@ -4,7 +4,7 @@ const EditedCar = (props) => {
   return (
     <input
     value={props.name}
-    onChange={(ev) => props.onUpdate(props.key, ev.target.value)}></input>
+    onChange={(ev) => props.onUpdate(props.ind, ev.target.value)}></input>
   )
 }
 
